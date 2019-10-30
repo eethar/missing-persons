@@ -5,7 +5,7 @@
 <div class="row">
     <div class="col">
         <h4 class="d-inline">
-            <slot name="title">Terms and Conditions</slot>
+            <slot name="title">Please add an attribute [title] to your 'item'</slot>
         </h4>
         <div class="float-right d-inline text-muted">
             <span>Step</span> <span id="currentSlideNumber">1</span>/<span id="totalSlideNumber">4</span>
@@ -16,14 +16,15 @@
 <div class="row">
     <div class="col">
         <macro-carousel disable-drag>
-            <div>slide1</div>
-            <div>slide2</div>
+            <slot name="item"></slot>
         </macro-carousel>
     </div>
 </div>
 <div class="row">
     <div class="col">
         <hr>
-        <button type="button" class="btn btn-light btn-outline-info float-right  mx-1">I Accept</button>
+        <button id="nextButton" type="button" class="btn btn-light btn-outline-info float-right  mx-1">
+            <slot name="nextButtonText" >Next</slot>
+        </button>
     </div>
 </div>
