@@ -1,0 +1,12 @@
+:host {
+    color: black;
+}
+
+:host>.container {
+    margin-top: 2em;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-flow: wrap;
+}

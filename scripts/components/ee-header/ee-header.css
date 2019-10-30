@@ -1,0 +1,46 @@
+:host {
+    color: black;
+    font-size: 2em;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.05);
+}
+
+#eetharLogoType {
+    font-family: 'FontMaze2';
+}
+
+#supEetharLogoType {
+    font-size: 0.4em;
+    vertical-align: super;
+}
+
+hr {
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+    border-color: rgba(0,0,0,0.05);
+}
+
+#menu {
+    font-size: 0.6em;
+    color: gray;
+}
+
+a {
+    color: gray;
+}
+
+.menuItem[active] {
+    color : black !important;
+}
+
+a:active {
+    color : black !important;
+}
+
+.spacer {
+    width: 0.5em;
+    display: inline-block;
+}

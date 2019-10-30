@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="styles/bootstrap/bootstrap.css" />
+<link rel="stylesheet" href="styles/bootstrap/bootstrap-grid.css" />
+
+<div>
+    <elix-carousel>
+        <img src="/images/img1.jpg" />
+        <img src="/images/img2.jpg" />
+    </elix-carousel>
+    <div class="content">
+        <h6>Firstname LASTNAME</h6>
+        <hr />
+        <label>Last seen: </label> <span>Location on Date</span>
+        <br />
+        <label>Originally from: </label> <span>City</span>
+        <br />
+        <label>Birthdate: </label> <span>dd/MM/YYYY</span>
+        <div id="actions">
+            <button class="btn btn-outline-info btn-sm">Details</button>
+            <button class="btn btn-outline-primary btn-sm">share</button>
+        </div>
+    </div>
+    <elix-drawer-with-grip from-edge="bottom">
+        <div class="content">
+            details about the case
+        </div>
+    </elix-drawer-with-grip>
+
+</div>

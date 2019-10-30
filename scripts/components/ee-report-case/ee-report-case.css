@@ -1,0 +1,21 @@
+:host {
+    color: black;
+}
+
+:host>.container {
+    margin-top: 2em;
+    
+}
+
+#content {
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: .1875rem!important;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+    margin: 1.25rem 0;
+}
+
+elix-tabs {
+    width: 100%;
+}

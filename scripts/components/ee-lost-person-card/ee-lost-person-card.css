@@ -1,0 +1,44 @@
+:host {
+    margin: 0.7em;
+    border: 1px lightgray solid !important;
+}
+
+:host>div {
+    background-color: white;
+    height: 27em;
+    width: 12em;
+    overflow: hidden;
+    position: relative;
+}
+
+elix-carousel {
+    height: 12em;
+    width: 100%;
+
+}
+
+elix-drawer-with-grip {
+    position: absolute;
+}
+
+img {
+    object-fit: cover;
+}
+
+.content {
+    padding: 0.7rem;
+    font-size: 0.9em;
+}
+
+label {
+    font-weight: 600;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0.6em;
+}
+
+#actions {
+    float: right;
+}
